@@ -4,5 +4,3 @@
 
 # Map Details:
 This map displays different types of habitats and geology off of Coal Oil point near UCSB. Additionally, there are contours and isopach layers listed above these layers for context along the coastline.
-
-Data was collected from USGS: https://pubs.usgs.gov/ds/781/OffshoreCoalOilPoint/data_catalog_OffshoreCoalOilPoint.html

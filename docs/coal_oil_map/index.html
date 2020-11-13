@@ -114,6 +114,416 @@
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
+
+        function style_Geology_OffshoreCoalOilPoint_1_0(feature) {
+            switch(String(feature.properties['MapUnit'])) {
+                case 'active marine nearshore and shelf sediments':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(76,230,68,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'active marine nearshore and shelf sediments - FINE':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(35,201,209,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'area of brighter backscatter and no relief':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(88,209,161,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'area of low relief, bright backscatter':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(165,222,19,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'bright BS, relief, smooth, similar to nearby features jamie mapped':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(204,122,199,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'dashed line in Jamie\'s map - small portion of lg area of high BS':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,61,172,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'from Jamie\'s map (edited by AR)':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(58,201,177,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'from Jamie\'s map (except E side':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(85,234,142,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Goleta slide complex units':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(97,150,203,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'jamie has mapped as dashed lines. seep in ofr. bright in BS':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(127,78,207,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Jamie mapped as dashed lines':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(209,47,90,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'jamie mapped as dashed lines, i assumed is bathy and BS anomaly':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(209,23,116,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Jamie\'s map':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(214,222,47,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Jamie\'s Map':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(171,40,200,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Jamie\'s Map - perpendicular to shore - fan':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(214,186,42,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Modified per Jamie\'s map - nearshore brighter BS, some relief, some not, Also patchy bright to E':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(214,186,42,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Monterey formation':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(110,116,205,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'per Jamie\'s map - maybe dissolve my inner polys?':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(58,179,222,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'platform debris':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(119,204,133,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Platform Holly - also dashed on Jamie\'s map':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(136,122,217,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'pockmark':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,146,109,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'pockmarks':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(202,96,75,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Quaternary sediment - cobble or conglomerate':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(28,77,200,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'rincon - beds show in 2004 photos':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(156,75,210,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'rough and bright':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(115,213,76,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'rougher, brighter, per Jamie mtg':
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(160,223,97,1.0)',
+                interactive: true,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_Geology_OffshoreCoalOilPoint_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(225,152,33,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
         map.createPane('pane_Geology_OffshoreCoalOilPoint_1');
         map.getPane('pane_Geology_OffshoreCoalOilPoint_1').style.zIndex = 401;
         map.getPane('pane_Geology_OffshoreCoalOilPoint_1').style['mix-blend-mode'] = 'normal';
